@@ -8,6 +8,10 @@
 				<div class="col-12">
 					<div class="card">
 						<!-- /.card-header -->
+						
+						<div class="card-header">
+							<a href="<?= base_url("report/index") ?>" class="btn btn-sm"><i class="fas fa-arrow-left"></i> Back</a>
+						</div>
 						<form method="POST" action="<?= base_url() ?>report/store">
 							<div class="card-body">
 								<div class="form-group">
